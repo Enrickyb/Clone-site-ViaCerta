@@ -1,438 +1,440 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Passion+One&family=Roboto:wght@100&family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans:wght@300&family=Passion+One&family=Roboto:wght@100&family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
-    /*font-family: 'Open Sans', */
-    /*font-family: 'Roboto', sans-serif;*/
-    
-    *{
-    
+* {
     margin: 0;
     padding: 0;
-    border: 0;
 }
 body {
-    background-color: rgb(235, 234, 234);
-    width: 1440px;
-    margin: auto;
-    height: 3845px;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    
-    background-color: white;
+    width: 100%;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    justify-content: flex-start;
-    margin: auto;
-    width: 1440px;
-    height: 152px;
-     
-}
-header .logo {
-    padding-left: 80px;
-}
-.menu {
-    display: flex;
-    gap: 60px;
-    padding-left: 96px;
-}
-.menu > a {
-    text-decoration: none;
-    font-family: 'Shippori Antique B1', sans-serif;
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 18px;
-    line-height: 23px;
-    color:#00609B;
-    
-}   
-.menu:last-child {
-    padding-right: 124px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.social-midia a {
-  padding-left: 27px;
-  margin-left: 27px;
-  
+.logo {
+    
 }
-.social-midia a:first-child {
-  padding-left: 0;
+.menu {
+   
 }
+.menu a {
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(0, 83, 139);
+    font-weight: bold;
+    
+}
+.barras {
+    display: none;
+}
+
 main {
-    position: relative;
-    background-color: white;
-    height: 3381px;
 
 }
 .principal {
-    position: relative;
-    height: 682px;
-    padding-bottom: 120px;
-}
-
-
-  #image {
-    position: absolute;
-    max-width: 1440;
-    min-width: 600px;
-    min-height: 682px;
-    margin: auto;  
-  }
-  
-  #texto {
-        position: absolute;
-        width: 100%;
-        margin: auto;
-        color: white;
-        font-family: fonte;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 27px;
-        letter-spacing: 0.1em;
+    background-image: url(imagens/image1.png);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
     
-  }
-  #texto h1 {
-        position: absolute;
-        font-family: 'Open Sans', sans-serif;
-        width: 590px;
-        height: 120px;
-        left: 105px;
-        top: 165px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 50px;
-        line-height: 60px;
-        letter-spacing: 0.1em;
-  }
-  .pontos-de-venda {
-        position: absolute;
-        font-family: 'Open Sans', sans-serif;
-        top: 341px;
-        left: 105px;
-        text-align: justify;
-        width: 612px;
-        height: 81px;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 27px;
-        letter-spacing: 0.1em;
-  }
-  .botão-produtos {
-        position: absolute;
-        top: 482px;
-        left: 104px;
-        width: 362px;
-        height: 78px;
-        border: 4px solid #FCFCFC;
-        box-sizing: border-box;
-        border-radius: 10px;
-        text-decoration: none;
-        padding-top: 22px;
-        padding-left: 14px;
-        color: #FCFCFC;
-        font-family: 'Open Sans', sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 27px;
-        transition: all .5s;
-  }
-  .botão-produtos:hover {
-    background: white;
-    color: #053cb1;
-      
-  }
-  .historia { 
-    padding: 0px 15px 0px 15px;
+}
+@media screen and (max-height: 800px) {
+    .principal {
+        height: 90vh;
+    }
+}
+.conteudo-principal {
+    color: white;
+    margin-left: 104px;
+    padding-top: 120px;
+}
+.conteudo-principal h1, .conteudo-principal p {
+    margin-bottom: 55px;
+}
+.conteudo-principal h1 {
+    max-width: 597px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+}
+.conteudo-principal p {
+    max-width: 613px;
+    margin-bottom: 80px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+}
+.button1 a {
+    text-decoration: none;  
+    color: white;
+    border: 2px solid #FCFCFC;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 25px 14px;
+    transition: all .5s;
+    font-weight: bold;
+    
+}
+.button1 a:hover {
+    background-color: white;
+    color: rgba(0, 96, 155, 0.65);
+}
+@media screen and (max-width: 640px) { 
+    .conteudo-principal {
+        margin-left: 50px;
+        padding-top: 50px;
+        
+    }
 
-  }
-  .historia img {   
-        padding-left: 80px;    
+
+} 
+@media screen and (max-width: 700px) {
+    .menu  a{
+        display: none;
+    }
+    
+    .barras{
+        position: absolute;
         display: block;
+        width: 40px;
+        height: 30px;
+        right: 10px;
+        top: 60px;
+        }
+    
+    .one,
+    .two,
+    .three {
+        background-color: rgb(0, 111, 139);
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.3s;
+    }
+    
+    /*full screen*/
+    .menu-section.on {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        background-color: darkcyan;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10;
+        transition: all.5s;
+    }
+    .menu-section.on .menu a{
+        display: block;
+        text-align: center;
+        color: white;
+        transition-duration: 0.5s;
+        font-size: 2rem;
+        line-height: 4rem;
+        
+    }
+    .menu-section.on .barras {
+        position: absolute;
+        right: 0;
+        top: 15px;
+        margin-right: 30px;
+    }
+    .menu-section.on .barras .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    .menu-section.on .barras .two {
+        opacity: 0;
+    }
+    .menu-section.on .barras .three {
+        transform: rotate(-45deg) translate(8px, -9px)
+    }
+}
+.secundario{
 
-  }
-  .segundo-conteudo {
-    position: absolute;
-    width: 693px;
-    height: 108px;
-    left: 650px;
-    top: 830px;
-    padding-left: 64px; 
-    text-align: justify;   
-  }
-  .segundo-conteudo h2 {
-        font-family: 'Open Sans', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 35px;
-        line-height: 48px;
-        color: #00609B;
-  }
-  .segundo-conteudo p {
-        padding-top: 67px;
-        font-family: 'Open Sans', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 27px;
-  }
-  .botao-historia {
-        position: absolute;    
-        margin-top: 48px;
-        width: 313px;
-        border: 4px solid #04A5D1;
-        box-sizing: border-box;
-        border-radius: 10px;
-        padding: 30px;
-        padding-left: 50px;
-        transition: all .5s;
-        text-decoration: none;
-        font-family: 'Open Sans', sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 25px;
-  }
-  .botao-historia:hover {
-    background: #04A5D1;
-    color: rgb(255, 255, 255);
-  }
-  .cliente {
-      padding-top: 160px;
-  }
-  #seja {
-    width: 729px;
-    height: 48px;  
-    padding-left: 420px;
-    padding-bottom: 132px;
-    font-family: 'Open Sans'sans-serif;
+}
+.secundario img {
+    margin-top: 120px;
+    margin-left: 82px;
+}
+.conteudo-secundario {
+    float right: ;
+    display: inline-block;
+   
+    vertical-align: top;
+    margin-top: 146px;
+    margin-left: 65px;
+}
+.conteudo-secundario h2 {
+    margin-bottom: 67px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+}
+.conteudo-secundario p {
+    max-width: 693px;
+    margin-bottom: 47px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+}
+.button2 a {
+    text-decoration: none;
+    border: 2px solid #04A5D1;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 22px 34px;
+    font-weight: bold;
+    color: #04A5D1;
+    transition: all .5s;
+}
+.button2 a:hover {
+    background-color: #04A5D1;
+    color: white;
+}
+@media screen and (max-width: 700px) {
+    .secundario img {
+        margin: 10px;
+        width: 450px;
+    }
+}
+.motivos {
+    margin-top: 160px;
+}
+.h2sec {
+    max-width: 729px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
     line-height: 48px;
     color: #00609B;
-  }
-  .caixas{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding-bottom: 144px;  
-  }
-  .caixa01 {
-    width: 370px;
-    height: 364px;
-    border: 1px solid rgba(95, 95, 95, 0.171) ;
-    margin-right: 86px;
-    background: #FFFFFF;
+    text-align: center;
+}
+.container {
+display: flex;
+margin-top: 132px;
+margin-bottom: 132px;
+}
+.box {
+    width: 400px;
+    height: 380px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
     border-radius: 20px 20px 20px 70px;
-  }
-  .caixa01:last-child {
-      margin-right: 0;
-  }
-  .caixa01 h2 {
-    padding: 43px 299px 0px 19px;
-    font-family: Open Sans;
+    margin: auto;
+
+}
+.contents {
+    padding-left: 19px;
+    padding-top: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box h3 {
+    margin-bottom: 21px;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 41px;
     text-align: justify;
     color: #00609B;
-  }
-  .caixa01 h3 {
-      padding: 21px 155px 0px 19px ;
-      font-family: Open Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 27px;
-        text-align: justify;
-        color: #00609B;
-  }
-  .caixa01 p {
-    padding: 39px 155px 0px 19px ;
-    width: 331px;
-    height: 132px;
-    font-family: Open Sans;
+}
+.box h4 {
+    margin-bottom: 39px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: justify;
+    color: #00609B;
+}
+.box p {
+    margin-right: 20px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
     text-align: justify;
-    color: #5A5A5A;
-  }
-  #image2 {
-    position: absolute;
-    height: 396px;
-  }
-  .conteudo-frota {
-    position: absolute;
-    width: 880px;
-    height: 96px;
-    margin-left: 281px;
-    margin-top: 105px;
+}
+@media screen and (max-width: 1258px) {
+    .container{
+        display:block;
+        
+    }
+    .box {
+        margin-bottom: 30px;
+    }
+}
+.frota {
+    background-image: url(imagens/fro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 396px;
+    margin-bottom: 139px;
+    text-align: center;
     color: white;
-    font-family: 'Open-Sans', sans-serif;
+}
+.contents-frota {
+    padding-top: 143px;
+
+}
+.frota h2 {
+    margin-bottom: 50px;
     font-style: normal;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 1.5em;
     line-height: 48px;
     text-align: center;
-    color: #FFFFFF;
-  }
-  .botao-saiba {
-    position: absolute;
-    width: 183px;
-    height: 68px;
-    margin-top: 258px;
-    margin-left: 625px;
-    padding-top: 19px;
-    padding-left: 40px;  
-    border: 4px solid #ffffff;
+}
+.frota a {
+    border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
+    padding: 21px 40px;
     text-decoration: none;
     color: white;
-    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
-    transition: all .5s;
-  }
-  .botao-saiba:hover {
-    background: white;
-    color: #00609B;
-  }
-  .conteudo-marcas h1{
-    position: absolute;
-    left: 586px;
-    top: 2631px;
-    width: 269px;
-    height: 48px;
-    font-family: 'Open Sans', sans-serif;
+    
+}
+.marcas {
+    margin-bottom: 100px;
+}
+.contents-marca {
+    text-align: center;
+    margin-bottom: 87px;
+}
+.contents-marca h2{
+    padding-bottom: 62px;
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
     line-height: 48px;
     color: #00609B;
- 
-  }
-  .conteudo-marcas p {
-    position: absolute;
-    width: 760px;
-    height: 60px;
-    left: 342px;
-    top: 2790px;
-   
-    font-family: Open Sans;
+}
+.contents-marca p {
+    max-width: 760px;
+    margin: auto;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
     line-height: 30px;
     text-align: center;
-
     color: #202020;
-  }
-  .imagens-marcas {
-    position: absolute;
-    top: 3015px;
+    padding-bottom: 118px;
+}
+.img-marcas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}   
+.img-marcas img {
+    padding-right: 55px;
+} 
+@media screen and (max-width: 1138px){
+    .img-marcas {
+        flex-direction: column;
+        
+    }
+    .img-marcas img {
+        margin-bottom: 80px;
+    }
+}
+.bolinhas {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 83px;
+}
+.bolinha,
+.bolinha1 {
     
-
-  }
-  .imagens-marcas img {
-      padding-left: 68px;
-      
-  }
-  #aymore {
-    padding-left: 169px;
-    width: 184px;
-    height: 116px;
-  }
-  #blueray {
-    width: 216px;
-    height: 79px;
-  }
-  #amalia {
-    width: 209px;
-    height: 83px;
-  }
-  #panasonic {
-    width: 287px;
-    height: 45px;
-  }
-  #image03 {
-    position: absolute;
-  }
-  #rodape {
-    position: absolute;
-  }
-  .contato {
-    position: absolute;
-    left: 106px;
-    top: 96px;
-  }
-  .contato h2 {
+    background-color: #C4C4C4;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    
+}
+.bolinha1 {
+    background-color: #00609B;
+}
+footer {
+    background-image: url(imagens/rodapé.png);
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+.contents-pe {
+    display: flex;
+    padding-left: 280px;
+    padding-top: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.contents-pe h2 {
     padding-bottom: 31px;
-    font-family: 'Open Sans', sans-serif;
+}
+.contents-pe p {
     font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 48px;
-    color: #FFFFFF;
-  }
-  .endereço {
-    position: absolute;
-    left: 576px;
-    top: 96px;
-
-
-  }
-  .endereço h2 {
-    padding-bottom: 31px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 48px;
-    color: #FFFFFF;
-  }
-  .point {
-    width: 311px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
     padding-bottom: 24px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 27px;
-
-    color: #FFFFFF;
-  }
-  .mapa {
-    position: absolute;
-    top: 113px;
-    left: 998px;
-  }
-  .vcerta {
-    position: absolute;
-    top: 421px;
-    left: 633px;
-    width: 175px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 27px;
-
-    color: #FFFFFF;
-  }
-  
-  
-
+}
+.contato {
+    max-width: 311px;
+    padding-right: 180px;
+}
+.endereço {
+    max-width: 248px;
+    padding-right: 290px;
+}
+#dis {
+    padding-top: 25px;
+}
+@media screen and (max-width: 1700px) {
+    .contents-pe {
+        padding-left: 150px;
+        padding-top: 60px;
+    }
+    .contato {
+        padding-right: 80px;
+    }
+    .endereço {
+        padding-right: 100px;
+    }
+}
+@media screen and (max-width: 1142px){
     
+    .contents-pe {
+        flex-wrap: wrap;
+    }
+    .mapa {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 562px) {
+    .contents-pe {
+        padding-left: 50px;
+    }
+}
+
+
 
