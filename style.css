@@ -15,12 +15,6 @@ header {
     padding-bottom: 20px;
 }
 
-.logo {
-    
-}
-.menu {
-   
-}
 .menu a {
     margin: 30px;
     text-decoration: none;
@@ -31,12 +25,8 @@ header {
 .barras {
     display: none;
 }
-
-main {
-
-}
 .principal {
-    background-image: url(imagens/image1.png);
+    background-image: url(imagens/image2.png);
     height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,15 +150,11 @@ main {
         transform: rotate(-45deg) translate(8px, -9px)
     }
 }
-.secundario{
-
-}
 .secundario img {
     margin-top: 120px;
     margin-left: 82px;
 }
 .conteudo-secundario {
-    float right: ;
     display: inline-block;
    
     vertical-align: top;
@@ -309,7 +295,11 @@ margin-bottom: 132px;
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
-    
+    transition: all 0.5s;
+}
+.frota a:hover {
+    background-color: white;
+    color: rgba(0, 96, 155, 0.65);
 }
 .marcas {
     margin-bottom: 100px;
