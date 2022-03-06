@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Passion+One&family=Roboto:wght@100&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans:wght@300&family=Passion+One&family=Roboto:wght@100&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+    /*font-family: 'Open Sans', */
+    /*font-family: 'Roboto', sans-serif;*/
+    
+    *{
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: rgb(235, 234, 234);
+    width: 1440px;
+    margin: auto;
+    height: 3845px;
+    
+}
+header {
+    
+    background-color: white;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    width: 1440px;
+    height: 152px;
+     
+}
+header .logo {
+    padding-left: 80px;
+}
+.menu {
+    display: flex;
+    gap: 60px;
+    padding-left: 96px;
+}
+.menu > a {
+    text-decoration: none;
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 23px;
+    color:#00609B;
+    
+}   
+.menu:last-child {
+    padding-right: 124px;
+}
+
+.social-midia a {
+  padding-left: 27px;
+  margin-left: 27px;
+  
+}
+.social-midia a:first-child {
+  padding-left: 0;
+}
+main {
+    position: relative;
+    background-color: white;
+    height: 3381px;
+
+}
+.principal {
+    position: relative;
+    height: 682px;
+    padding-bottom: 120px;
+}
+
+
+  #image {
+    position: absolute;
+    max-width: 1440;
+    min-width: 600px;
+    min-height: 682px;
+    margin: auto;  
+  }
+  
+  #texto {
+        position: absolute;
+        width: 100%;
+        margin: auto;
+        color: white;
+        font-family: fonte;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.1em;
+    
+  }
+  #texto h1 {
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        width: 590px;
+        height: 120px;
+        left: 105px;
+        top: 165px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: 0.1em;
+  }
+  .pontos-de-venda {
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        top: 341px;
+        left: 105px;
+        text-align: justify;
+        width: 612px;
+        height: 81px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.1em;
+  }
+  .botão-produtos {
+        position: absolute;
+        top: 482px;
+        left: 104px;
+        width: 362px;
+        height: 78px;
+        border: 4px solid #FCFCFC;
+        box-sizing: border-box;
+        border-radius: 10px;
+        text-decoration: none;
+        padding-top: 22px;
+        padding-left: 14px;
+        color: #FCFCFC;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        transition: all .5s;
+  }
+  .botão-produtos:hover {
+    background: white;
+    color: #053cb1;
+      
+  }
+  .historia { 
+    padding: 0px 15px 0px 15px;
+
+  }
+  .historia img {   
+        padding-left: 80px;    
+        display: block;
+
+  }
+  .segundo-conteudo {
+    position: absolute;
+    width: 693px;
+    height: 108px;
+    left: 650px;
+    top: 830px;
+    padding-left: 64px; 
+    text-align: justify;   
+  }
+  .segundo-conteudo h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 48px;
+        color: #00609B;
+  }
+  .segundo-conteudo p {
+        padding-top: 67px;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 27px;
+  }
+  .botao-historia {
+        position: absolute;    
+        margin-top: 48px;
+        width: 313px;
+        border: 4px solid #04A5D1;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 30px;
+        padding-left: 50px;
+        transition: all .5s;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+  }
+  .botao-historia:hover {
+    background: #04A5D1;
+    color: rgb(255, 255, 255);
+  }
+  .cliente {
+      padding-top: 160px;
+  }
+  #seja {
+    width: 729px;
+    height: 48px;  
+    padding-left: 420px;
+    padding-bottom: 132px;
+    font-family: 'Open Sans'sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 48px;
+    color: #00609B;
+  }
+  .caixas{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-bottom: 144px;  
+  }
+  .caixa01 {
+    width: 370px;
+    height: 364px;
+    border: 1px solid rgba(95, 95, 95, 0.171) ;
+    margin-right: 86px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 20px 70px;
+  }
+  .caixa01:last-child {
+      margin-right: 0;
+  }
+  .caixa01 h2 {
+    padding: 43px 299px 0px 19px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: justify;
+    color: #00609B;
+  }
+  .caixa01 h3 {
+      padding: 21px 155px 0px 19px ;
+      font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: justify;
+        color: #00609B;
+  }
+  .caixa01 p {
+    padding: 39px 155px 0px 19px ;
+    width: 331px;
+    height: 132px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    color: #5A5A5A;
+  }
+  #image2 {
+    position: absolute;
+    height: 396px;
+  }
+  .conteudo-frota {
+    position: absolute;
+    width: 880px;
+    height: 96px;
+    margin-left: 281px;
+    margin-top: 105px;
+    color: white;
+    font-family: 'Open-Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .botao-saiba {
+    position: absolute;
+    width: 183px;
+    height: 68px;
+    margin-top: 258px;
+    margin-left: 625px;
+    padding-top: 19px;
+    padding-left: 40px;  
+    border: 4px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    transition: all .5s;
+  }
+  .botao-saiba:hover {
+    background: white;
+    color: #00609B;
+  }
+  .conteudo-marcas h1{
+    position: absolute;
+    left: 586px;
+    top: 2631px;
+    width: 269px;
+    height: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 48px;
+    color: #00609B;
+ 
+  }
+  .conteudo-marcas p {
+    position: absolute;
+    width: 760px;
+    height: 60px;
+    left: 342px;
+    top: 2790px;
+   
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #202020;
+  }
+  .imagens-marcas {
+    position: absolute;
+    top: 3015px;
+    
+
+  }
+  .imagens-marcas img {
+      padding-left: 68px;
+      
+  }
+  #aymore {
+    padding-left: 169px;
+    width: 184px;
+    height: 116px;
+  }
+  #blueray {
+    width: 216px;
+    height: 79px;
+  }
+  #amalia {
+    width: 209px;
+    height: 83px;
+  }
+  #panasonic {
+    width: 287px;
+    height: 45px;
+  }
+  #image03 {
+    position: absolute;
+  }
+  #rodape {
+    position: absolute;
+  }
+  .contato {
+    position: absolute;
+    left: 106px;
+    top: 96px;
+  }
+  .contato h2 {
+    padding-bottom: 31px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+  .endereço {
+    position: absolute;
+    left: 576px;
+    top: 96px;
+
+
+  }
+  .endereço h2 {
+    padding-bottom: 31px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+  .point {
+    width: 311px;
+    padding-bottom: 24px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+  }
+  .mapa {
+    position: absolute;
+    top: 113px;
+    left: 998px;
+  }
+  .vcerta {
+    position: absolute;
+    top: 421px;
+    left: 633px;
+    width: 175px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+  }
+  
+  
+
+    
+
