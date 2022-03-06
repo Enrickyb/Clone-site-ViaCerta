@@ -80,8 +80,14 @@ header {
 }
 @media screen and (max-width: 640px) { 
     .conteudo-principal {
-        margin-left: 50px;
-        padding-top: 50px;
+        
+        margin-left: 20px;
+        padding-top: 20px;
+        
+    }
+    .conteudo-principal h1 {
+        
+        font-size: 40px;
         
     }
 
@@ -193,7 +199,7 @@ header {
 @media screen and (max-width: 700px) {
     .secundario img {
         margin: 10px;
-        width: 450px;
+        width: 350px;
     }
 }
 .motivos {
@@ -344,6 +350,7 @@ margin-bottom: 132px;
     }
     .img-marcas img {
         margin-bottom: 80px;
+        padding-right: 0;
     }
 }
 .bolinhas {
@@ -424,7 +431,12 @@ footer {
     .contents-pe {
         padding-left: 50px;
     }
+    .mapa {
+        padding-bottom: 20px;
+        width: 300px;
+    }
 }
+
 
 
 
