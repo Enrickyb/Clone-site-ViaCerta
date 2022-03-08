@@ -15,6 +15,7 @@ header {
     padding-bottom: 20px;
 }
 
+
 .menu a {
     margin: 30px;
     text-decoration: none;
@@ -94,18 +95,25 @@ header {
 
 } 
 @media screen and (max-width: 700px) {
+    header{
+        height: 40px;
+    }
+
     .menu  a{
         display: none;
     }
+    #logo {
+        display: none;
+    } 
     
     .barras{
         position: absolute;
         display: block;
         width: 40px;
         height: 30px;
-        right: 10px;
-        top: 60px;
-        }
+        top: 20px;
+        right: 15px;
+    }
     
     .one,
     .two,
@@ -125,7 +133,7 @@ header {
         justify-content: center;
         top: 0;
         left: 0;
-        background-color: darkcyan;
+        background-color: rgb(0, 111, 139);
         width: 100vw;
         height: 100vh;
         z-index: 10;
@@ -143,11 +151,17 @@ header {
     .menu-section-on .barras {
         position: absolute;
         right: 0;
-        top: 15px;
-        margin-right: 30px;
+        top: 20px;
+        right: 15px;
     }
+    .menu-section-on .one,
+    .menu-section-on .three {
+        background-color: white;
+    }
+    
     .menu-section-on .barras .one {
         transform: rotate(45deg) translate(7px, 7px);
+    
     }
     .menu-section-on .barras .two {
         opacity: 0;
@@ -343,6 +357,9 @@ margin-bottom: 132px;
 .img-marcas img {
     padding-right: 55px;
 } 
+#bluer {
+    width: 400px;
+}
 @media screen and (max-width: 1138px){
     .img-marcas {
         flex-direction: column;
