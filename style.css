@@ -118,7 +118,7 @@ header {
     }
     
     /*full screen*/
-    .menu-section.on {
+    .menu-section-on {
         position: absolute;
         display: flex;
         align-items: center;
@@ -131,7 +131,7 @@ header {
         z-index: 10;
         transition: all.5s;
     }
-    .menu-section.on .menu a{
+    .menu-section-on .menu a{
         display: block;
         text-align: center;
         color: white;
@@ -140,19 +140,19 @@ header {
         line-height: 4rem;
         
     }
-    .menu-section.on .barras {
+    .menu-section-on .barras {
         position: absolute;
         right: 0;
         top: 15px;
         margin-right: 30px;
     }
-    .menu-section.on .barras .one {
+    .menu-section-on .barras .one {
         transform: rotate(45deg) translate(7px, 7px);
     }
-    .menu-section.on .barras .two {
+    .menu-section-on .barras .two {
         opacity: 0;
     }
-    .menu-section.on .barras .three {
+    .menu-section-on .barras .three {
         transform: rotate(-45deg) translate(8px, -9px)
     }
 }
