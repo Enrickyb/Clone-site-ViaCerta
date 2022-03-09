@@ -347,19 +347,28 @@ margin-bottom: 132px;
     color: #202020;
     padding-bottom: 118px;
 }
+.carrossel {
+    margin: auto;
+    overflow: hidden;  
+    max-width: 1140px;
+    height: 500px;
+}
 .img-marcas {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
     margin: auto;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
 }   
 .img-marcas img {
-    padding-right: 55px;
+    object-fit: cover;
+    
 } 
 #bluer {
     width: 400px;
 }
+
 @media screen and (max-width: 1138px){
     .img-marcas {
         flex-direction: column;
