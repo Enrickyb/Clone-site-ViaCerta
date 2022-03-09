@@ -347,6 +347,9 @@ margin-bottom: 132px;
     color: #202020;
     padding-bottom: 118px;
 }
+
+
+/*//////////////carrossel/////////////*/
 .carrossel {
     margin: auto;
     overflow: hidden;  
@@ -365,7 +368,7 @@ margin-bottom: 132px;
     object-fit: cover;
     
 } 
-#bluer {
+#bluer { /*img blueray*/
     width: 400px;
 }
 
