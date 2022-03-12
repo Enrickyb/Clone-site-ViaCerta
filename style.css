@@ -29,6 +29,7 @@ header {
 .principal {
     background-image: url(imagens/image2.png);
     height: 70vh;
+    min-width: 381px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -236,7 +237,7 @@ margin-top: 132px;
 margin-bottom: 132px;
 }
 .box {
-    width: 400px;
+    max-width: 400px;
     height: 380px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
     border-radius: 20px 20px 20px 70px;
@@ -287,7 +288,8 @@ margin-bottom: 132px;
     background-image: url(imagens/fro.png);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 396px;
+    min-height: 500px;
+    min-width: 380px;
     margin-bottom: 139px;
     text-align: center;
     color: white;
@@ -361,6 +363,7 @@ margin-bottom: 132px;
     align-items: center;
     justify-content: center;
     margin: auto;
+    padding-left: 15px;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
 }   
@@ -373,8 +376,9 @@ margin-bottom: 132px;
 }
 
 @media screen and (max-width: 1138px){
+    
     .img-marcas {
-        flex-direction: column;
+        flex-direction: row;
         
     }
     .img-marcas img {
@@ -387,7 +391,7 @@ margin-bottom: 132px;
     flex-direction: row;
     gap: 12px;
     justify-content: center;
-    margin-top: 83px;
+    
 }
 .bolinha,
 .bolinha1 {
@@ -405,6 +409,7 @@ footer {
     background-image: url(imagens/rodapé.png);
     background-size: cover;
     height: 100%;
+    min-width: 380px;
     position: relative;
 }
 .contents-pe {
@@ -465,6 +470,18 @@ footer {
         width: 300px;
     }
 }
+[data-anime]{
+    opacity: 0;
+    transition: .6s;
+}
+[data-anime=bottom] {
+    transform: translate3d(0, 70px, 0px);
+}
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
 
 
 
