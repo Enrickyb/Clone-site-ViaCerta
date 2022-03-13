@@ -9,6 +9,10 @@ function turnon() {
 }
 
 
+
+
+
+
 //slide 
 const imgs = document.getElementById('img')
 const img = document.querySelectorAll('#img img')
