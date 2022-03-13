@@ -1,6 +1,7 @@
 var ativar = document.getElementById('mde')
 var lg = document.getElementById('logo')
 var show = true
+
 //menu hamburger
 function turnon() {
     ativar.classList.toggle('menu-section-on', show)
