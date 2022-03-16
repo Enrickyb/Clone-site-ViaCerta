@@ -4,6 +4,7 @@ var show = true
 
 //menu hamburger
 function turnon() {
+    document.body.style.overflow = show ? 'hidden' : 'initial'
     ativar.classList.toggle('menu-section-on', show)
     show = !show
 }
