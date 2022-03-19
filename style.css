@@ -352,59 +352,39 @@ margin-bottom: 132px;
 
 
 /*//////////////carrossel/////////////*/
-.carrossel {
-    margin: auto;
-    overflow: hidden;  
-    max-width: 1140px;
-    height: 500px;
-}
-.img-marcas {
+.carousel-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    padding-left: 15px;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
-}   
-.img-marcas img {
-    object-fit: cover;
     
-} 
-#bluer { /*img blueray*/
-    width: 400px;
+}
+.carousel-item img {
+    padding-left: 50px;
+}
+.carousel-control-prev-icon {
+    background-color: black;
+}
+.carousel-control-next-icon {
+    background-color: black;
+}
+.carousel { 
+    
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+.carousel-indicators {
+    background-color: black;
+}
+.carousel-inner {
+    overflow: visible;
+    width: 100px;
 }
 
-@media screen and (max-width: 1138px){
-    
-    .img-marcas {
-        flex-direction: row;
-        
-    }
-    .img-marcas img {
-        margin-bottom: 80px;
-        padding-right: 0;
-    }
-}
-.bolinhas {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    justify-content: center;
-    
-}
-.bolinha,
-.bolinha1 {
-    
-    background-color: #C4C4C4;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    
-}
-.bolinha1 {
-    background-color: #00609B;
-}
+
+
+
+
 footer {
     background-image: url(imagens/rodapé.png);
     background-size: cover;

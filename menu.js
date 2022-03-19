@@ -12,28 +12,6 @@ function turnon() {
 
 
 
-
-
-//slide 
-const imgs = document.getElementById('img')
-const img = document.querySelectorAll('#img img')
-
-let idx = 0
-
-function carrossel() {
-    idx++
-    if(idx > img.length - 4) { //retorna pra primeira imagem
-        idx = 0
-    }
-    imgs.style.transform = `translateX(${-idx * 200}px)`
-}
-setInterval(carrossel, 3000)
-
-
-
-
-
-
 //animação scroll
 
 const debounce = function(func, wait, immediate) {
