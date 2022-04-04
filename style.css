@@ -373,8 +373,12 @@ margin-bottom: 132px;
     width: 500px;
     height: 500px;
 }
-.carousel-indicators {
+
+.btnslid {
     background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
 .carousel-inner {
     overflow: visible;
