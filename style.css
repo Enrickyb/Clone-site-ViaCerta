@@ -138,7 +138,7 @@ header {
         width: 100vw;
         height: 100vh;
         z-index: 10;
-        transition: all.5s;
+        transition: all .5s;
     }
     .menu-section-on .menu a{
         display: block;
